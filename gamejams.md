@@ -1,12 +1,10 @@
 ---
 layout: page
-title: GameJam
-permalink: /gamejam/
+title: GameJams
+permalink: /gamejams/
 ---
 
-I've been doing GameJam's since 2013 with a whole bunch of different people, they're always a lot of fun!
-
-Current count: 29
+I've been doing GameJam's since 2013 with a whole bunch of different people, they're good fun!
 
 ## Ludum Dare
 * [**Robo Island (2026)**](https://joe-shanahan.itch.io/robo-island) - Signal
