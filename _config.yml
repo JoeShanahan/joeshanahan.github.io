@@ -1,3 +1,8 @@
 title: 3Djoe.co.uk
 description: Joe Shanahan - Game Developer
 theme: minima
+
+header_pages:
+  - home.md
+  - gamejams.md
+  - about.md

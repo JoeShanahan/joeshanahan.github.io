@@ -1,8 +1,10 @@
 ---
 layout: home
+title: Home
+permalink: /
 ---
 
-Hi I'm Joe, I live in Brighton (UK), and I do video game things!
+Hi I'm Joe, I live in Brighton, and I do video game things!
 
 You can:
 * Follow me on [**BlueSky**](https://bsky.app/profile/joeshanahan.bsky.social)
