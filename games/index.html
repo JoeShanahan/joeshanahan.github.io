@@ -47,7 +47,22 @@
         padding: 20px;
     }
 
+    .borrowedOverlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.65);
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        pointer-events: none; /* click still opens modal */
+    }
+
     .gameCard {
+        position: relative; /* required so overlay positions correctly */
         background: white;
         border-radius: 8px;
         padding: 10px;
@@ -207,10 +222,19 @@ function renderGames(games, groupBy = null) {
 function createGameCard(game) {
     const card = document.createElement("div");
     card.className = "gameCard";
+
     card.innerHTML = `
         <img src="${game.image}" loading="lazy">
         <div class="title">${game.name}</div>
     `;
+
+    if (game.borrowed) {
+        const overlay = document.createElement("div");
+        overlay.className = "borrowedOverlay";
+        overlay.textContent = "BORROWED";
+        card.appendChild(overlay);
+    }
+
     card.onclick = () => openModal(game);
     return card;
 }
