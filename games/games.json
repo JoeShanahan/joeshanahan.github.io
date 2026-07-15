@@ -15,7 +15,7 @@
   { "name": "Pokémon Let's Go Eevee", "image": "images/lets-go-eevee.png", "category": "Pokemon", "year": 2018, "description": "" },
   { "name": "Super Mario 3D All-Stars", "image": "images/mario-all-stars.png", "category": "Platform", "year": 2020, "description": "" },
   { "name": "Super Mario Bros. Wonder", "image": "images/mario-wonder.png", "category": "Platform", "year": 2023, "description": "" },
-  { "name": "Super Mario Odyssey", "image": "images/odyssey.png", "category": "Platform", "year": 2017, "description": "" },
+  { "name": "Super Mario Odyssey", "image": "images/odyssey.png", "category": "Platform", "year": 2017, "description": "", "borrowed": true },
   { "name": "Ori and the Will of the Wisps", "image": "images/ori2.png", "category": "Platform", "year": 2020, "description": "" },
   { "name": "Persona 5 Strikers", "image": "images/persona5s.png", "category": "Long anime games", "year": 2021, "description": "" },
   { "name": "Pokémon Shining Pearl", "image": "images/pokemon-pearl.png", "category": "Pokemon", "year": 2021, "description": "" },

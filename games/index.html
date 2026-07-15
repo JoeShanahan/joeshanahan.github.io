@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Joe's game library</title>
+<title>Joe's Game Library</title>
 <style>
     body {
-        font-family: Arial, sans-serif;
+        font-family: Helvetica, sans-serif;
         margin: 0;
         background: #f5f5f5;
     }
@@ -16,7 +16,8 @@
         padding: 20px;
         font-size: 32px;
         font-weight: bold;
-        text-align: center;
+        text-align: left;
+        font-family: "Segoe UI", sans-serif;
     }
 
     #controls {
@@ -165,6 +166,29 @@
         color:white;
         cursor: pointer;
         padding: 32px;
+        z-index: 100000;
+    }
+
+    #modalMeta {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .metaItem {
+        flex: 1;
+        text-align: center;
+    }
+
+    .metaLabel {
+        font-weight: bold;
+        color: white;
+        margin-bottom: 4px;
+    }
+
+    .metaValue {
+        color: #cccccc;
     }
 
 
@@ -185,7 +209,7 @@
     }
 
     .groupGrid {
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     }
 
     #modalContent img {
@@ -210,7 +234,7 @@
 </head>
 <body>
 
-<header>Joe's game library</header>
+<header>Joe's Game Library</header>
 
 <div id="controls">
     <input id="searchBox" type="text" placeholder="Search games…">
@@ -234,14 +258,20 @@
             <h2 id="modalTitle"></h2>
             <p id="modalDesc"></p>
 
-            <div>
-                <div class="modalLabel">Release year</div>
-                <div class="modalValue" id="modalYear"></div>
+           <div id="modalMeta">
+            <div class="metaItem">
+                <div class="metaLabel">Release year</div>
+                <div class="metaValue" id="modalYear"></div>
             </div>
 
-            <div>
-                <div class="modalLabel">Category</div>
-                <div class="modalValue" id="modalCategory"></div>
+            <div class="metaItem">
+                <div class="metaLabel">Category</div>
+                <div class="metaValue" id="modalCategory"></div>
+            </div>
+
+            <div class="metaItem">
+                <div class="metaLabel">Available</div>
+                <div class="metaValue" id="modalAvailable"></div>
             </div>
         </div>
     </div>
@@ -320,6 +350,9 @@ function openModal(game) {
     document.getElementById("modalDesc").textContent = game.description || "";
     document.getElementById("modalYear").textContent = game.year || "Unknown";
     document.getElementById("modalCategory").textContent = game.category || "Unknown";
+
+    document.getElementById("modalAvailable").textContent =
+        game.borrowed ? "No" : "Yes";
 
     document.getElementById("modal").style.display = "flex";
 }
