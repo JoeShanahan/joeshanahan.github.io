@@ -134,7 +134,7 @@
 
     /* Title */
     #modalTitle {
-        font-size: 28px;
+        font-size: 1.7em;
         font-weight: bold;
         margin: 0;
     }
@@ -143,6 +143,7 @@
     #modalDesc {
         color: #d0d0d0; /* light grey */
         line-height: 1.5;
+        font-size:1em;
     }
 
     /* Labels */
@@ -179,12 +180,15 @@
     .metaItem {
         flex: 1;
         text-align: center;
+        font-size: 1em;
     }
 
     .metaLabel {
-        font-weight: bold;
+        font-weight: 700;
         color: white;
         margin-bottom: 4px;
+        font-size: 0.7em;
+        letter-spacing: 0.05rem;
     }
 
     .metaValue {
@@ -213,6 +217,7 @@
     }
 
     #modalContent img {
+        max-height: 50dvh;
         max-height: 50vh;
     }
 
@@ -260,17 +265,17 @@
 
            <div id="modalMeta">
             <div class="metaItem">
-                <div class="metaLabel">Release year</div>
+                <div class="metaLabel">RELEASE YEAR</div>
                 <div class="metaValue" id="modalYear"></div>
             </div>
 
             <div class="metaItem">
-                <div class="metaLabel">Category</div>
+                <div class="metaLabel">CATEGORY</div>
                 <div class="metaValue" id="modalCategory"></div>
             </div>
 
             <div class="metaItem">
-                <div class="metaLabel">Available</div>
+                <div class="metaLabel">AVAILABLE</div>
                 <div class="metaValue" id="modalAvailable"></div>
             </div>
         </div>
@@ -305,7 +310,14 @@ function renderGames(games, groupBy = null) {
         groups[key].push(game);
     });
 
-    Object.keys(groups).sort().forEach(groupName => {
+    const sortedGroupNames = Object.keys(groups).sort((a, b) => {
+    if (groupBy === "year") {
+        return b - a;   // numeric descending
+    }
+        return a.localeCompare(b); // normal ascending for everything else
+    });
+
+    sortedGroupNames.forEach(groupName => {
         // Header
         const header = document.createElement("h2");
         header.textContent = groupName;
