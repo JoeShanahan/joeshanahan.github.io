@@ -1,0 +1,14 @@
+[
+    {
+        "name": "The Legend of Zelda: Tears of the Kingdom",
+        "year": 2023,
+        "image": "images/totk.jpg",
+        "description": "Explore a vast open world, craft new abilities, and uncover the mysteries of Hyrule."
+    },
+    {
+        "name": "Super Mario Odyssey",
+        "year": 2017,
+        "image": "images/odyssey.jpg",
+        "description": "Mario embarks on a globe‑trotting adventure using Cappy to capture enemies and objects."
+    }
+]

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Joe's game library</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f5f5f5;
+    }
+
+    header {
+        background: #e60012;
+        color: white;
+        padding: 20px;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #controls {
+        display: flex;
+        gap: 20px;
+        padding: 15px;
+        background: white;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #gameGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .gameCard {
+        background: white;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        cursor: pointer;
+        transition: transform 0.1s;
+    }
+
+    .gameCard:hover {
+        transform: scale(1.03);
+    }
+
+    .gameCard img {
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    .gameCard .title {
+        margin-top: 8px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Modal */
+    #modal {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.7);
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #modalContent {
+        background: white;
+        padding: 20px;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px black;
+    }
+
+    #modalContent img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    #closeModal {
+        float: right;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<header>Joe's game library</header>
+
+<div id="controls">
+    <input id="searchBox" type="text" placeholder="Search games…">
+    <select id="sortSelect">
+        <option value="name">Sort by name</option>
+        <option value="year">Sort by year</option>
+    </select>
+</div>
+
+<div id="gameGrid"></div>
+
+<!-- Modal -->
+<div id="modal">
+    <div id="modalContent">
+        <span id="closeModal">✖</span>
+        <h2 id="modalTitle"></h2>
+        <img id="modalImage">
+        <p id="modalDesc"></p>
+    </div>
+</div>
+
+<script>
+async function loadGames() {
+    const response = await fetch("games.json");
+    const games = await response.json();
+    return games;
+}
+
+function renderGames(games) {
+    const grid = document.getElementById("gameGrid");
+    grid.innerHTML = "";
+
+    games.forEach(game => {
+        const card = document.createElement("div");
+        card.className = "gameCard";
+        card.innerHTML = `
+            <img src="${game.image}">
+            <div class="title">${game.name}</div>
+        `;
+        card.onclick = () => openModal(game);
+        grid.appendChild(card);
+    });
+}
+
+function openModal(game) {
+    document.getElementById("modalTitle").textContent = game.name;
+    document.getElementById("modalImage").src = game.image;
+    document.getElementById("modalDesc").textContent = game.description;
+    document.getElementById("modal").style.display = "flex";
+}
+
+document.getElementById("closeModal").onclick = () =>
+    document.getElementById("modal").style.display = "none";
+
+function applyFilters(games) {
+    const search = document.getElementById("searchBox").value.toLowerCase();
+    const sort = document.getElementById("sortSelect").value;
+
+    let filtered = games.filter(g =>
+        g.name.toLowerCase().includes(search)
+    );
+
+    filtered.sort((a, b) => {
+        if (sort === "name") return a.name.localeCompare(b.name);
+        if (sort === "year") return a.year - b.year;
+    });
+
+    renderGames(filtered);
+}
+
+(async () => {
+    const games = await loadGames();
+
+    document.getElementById("searchBox").oninput = () => applyFilters(games);
+    document.getElementById("sortSelect").onchange = () => applyFilters(games);
+
+    applyFilters(games);
+})();
+</script>
+
+</body>
+</html>
