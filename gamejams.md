@@ -6,6 +6,14 @@ permalink: /gamejams/
 
 I've been doing GameJam's since 2013 with a whole bunch of different people, they're good fun!
 
+## GMTK Game Jam
+* [**Count Bombula (2025)**](https://skylarkblue1.itch.io/count-bombula) - Countdown
+* [**Windswept (2025)**](https://skylarkblue1.itch.io/windswept) - Loop
+* [**Toni the Tiny Wizard (2024)**](https://gremalino.itch.io/toni-the-tiny-wizard) - Built to Scale
+* [**Ready to Roll (2022)**](https://horsehead.itch.io/ready-to-roll) - Roll of the Dice
+* [**Boxy See, Boxy Do (2020)**](https://horsehead.itch.io/boxy-see-boxy-do) - Out of Control
+* [**Only One Recruit (2019)**](https://horsehead.itch.io/gmtk-gamejam-2019) - Only One
+
 ## Ludum Dare
 * [**Robo Island (2026)**](https://joe-shanahan.itch.io/robo-island) - Signal
 * [**Library Fighter II Turbo (2024)**](https://joe-shanahan.itch.io/library-fighter-ii-turbo) - Summoning
@@ -24,13 +32,6 @@ I've been doing GameJam's since 2013 with a whole bunch of different people, the
 * [**Tiny Tree (2023)**](https://horsehead.itch.io/tiny-tree) - Roots
 * [**Unfinished Vampire Game (2022)**](https://joe-shanahan.itch.io/ggj2022-vampire-game) - Duality
 * [**Airport - Lost & Found Division (2021)**](https://horsehead.itch.io/airport-lost-found-division) - Lost & Found
-
-## GMTK Game Jam
-* [**Windswept (2025)**](https://skylarkblue1.itch.io/windswept) - Loop
-* [**Toni the Tiny Wizard (2024)**](https://gremalino.itch.io/toni-the-tiny-wizard) - Built to Scale
-* [**Ready to Roll (2022)**](https://horsehead.itch.io/ready-to-roll) - Roll of the Dice
-* [**Boxy See, Boxy Do (2020)**](https://horsehead.itch.io/boxy-see-boxy-do) - Out of Control
-* [**Only One Recruit (2019)**](https://horsehead.itch.io/gmtk-gamejam-2019) - Only One
 
 ## University of Portsmouth GameJam
 * [**Somewhere in Berkshire (2020)**](https://horsehead.itch.io/somewhere-in-berkshire)
