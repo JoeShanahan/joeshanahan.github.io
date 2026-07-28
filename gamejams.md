@@ -7,7 +7,7 @@ permalink: /gamejams/
 I've been doing GameJam's since 2013 with a whole bunch of different people, they're good fun!
 
 ## GMTK Game Jam
-* [**Count Bombula (2025)**](https://skylarkblue1.itch.io/count-bombula) - Countdown
+* [**Count Bombula (2026)**](https://skylarkblue1.itch.io/count-bombula) - Countdown
 * [**Windswept (2025)**](https://skylarkblue1.itch.io/windswept) - Loop
 * [**Toni the Tiny Wizard (2024)**](https://gremalino.itch.io/toni-the-tiny-wizard) - Built to Scale
 * [**Ready to Roll (2022)**](https://horsehead.itch.io/ready-to-roll) - Roll of the Dice
