@@ -1,52 +1,364 @@
 [
-  { "name": "Animal Crossing: New Horizons", "image": "images/acnh.png", "category": "Life Sim", "year": 2020, "description": "Ah yes, everyone's lockdown game of 2020. It's hard to overstate how big of a thing this was during the pandemic, but if you never picked it up, there's still plenty of reasons to play now. They added free DLC twice since launch, and a paid expansion for Happy Home Designer. If you loved it on the DS you'll love it here too. It only requires a small amount of time each day, but I've not see anyone put this game down in under 100 hours." },
-  { "name": "Advance Wars 1+2 Re-Boot Camp", "image": "images/advance-wars-reboot.png", "category": "Other", "year": 2023, "description": "The Advance Wars I've played the most is Dual Strike, but even though these two games are technically simpler by comparison, there is SO much content here. I came to appreciate the simplicity as elegance, and ended up with over 150 hours played. There's no Advance Wars inspired game on the Switch that I think can beat this." },
-  { "name": "Astral Chain", "image": "images/astral-chain.png", "category": "Other", "year": 2019, "description": "This was directed by the game designer for Nier: Automata, under supervision from the creator of Devil May Cry and Bayonetta. If that means something to you then perhaps this game is for you? It has a unque central mechanic of having a chain between you and your other character, and you tie the chain round things in combat. The combat is fast and has a lot of variety, and it's not a super long game either, but personally it didn't stick with me much. Not really my style of gameplay." },
-  { "name": "Bravely Default II", "image": "images/bravely-default-2.png", "category": "Long Anime Games", "year": 2021, "description": "I loved the first Bravely Default, and at times I liked this game too. But by the end I was so sick of it I was just seeing what cheese strategies I could use to roll credits as fast as possible. I think there's still some interesting things going on here, and it mixes up the traditional turn based combat plus jobs system you see in so many of these games, but I'm not sure I recommend it unless you're a huge fan of these kind of games." },
-  { "name": "Cadence of Hyrule", "image": "images/cadence.png", "category": "Other", "year": 2019, "description": "This is Crypt of the Necrodancer, but Zelda. But it also leans way heavier into Zelda than I expected. You basically have a randomly generated Zelda overworld to explore, with shuffled items and dungeon floors - this is something no other Zelda game has done. It's difficult for sure, but the music is great, and the general execution very good too." },
-  { "name": "Crash Team Racing Nitro-Fueled", "image": "images/ctr.png", "category": "Other", "year": 2019, "description": "I have good memories of playing this back on the PS1, although I'll admit the visuals have not aged well. This game looks much better, and it feels more skill based than a Mario Kart, but it runs awfully, and the load times between levels are actually painful. It's hard to recommend as a multiplayer game, but it does have a more robust single player than Mario Kart, so if you can stand the frame rate and load times, you might have some fun." },
-  { "name": "Dragon Quest Builders 2", "image": "images/dqb2.png", "category": "Life Sim", "year": 2019, "description": "I've been recommending this game ever since I first played it, and I still cannot say enough good things about it. But now I have one extra thing to say - it's Pokopia but before Pokopia came out. It's an exceptionally generous game, there's so much to do, so much depth to the mechanics. I liked it so much I bought it at completed it on two different platforms.", "borrowed": true },
-  { "name": "Fire Emblem Engage", "image": "images/fe-engage.png", "category": "Long Anime Games", "year": 2023, "description": "I didn't like this one as much as Three Houses, but people who prefer the tactics gameplay over the life sim stuff have said it's a really good game. I got pretty far but never completed it, I think I was on the last two or three missions." },
-  { "name": "Fire Emblem: Three Houses", "image": "images/fe3h.png", "category": "Long Anime Games", "year": 2019, "description": "I really loved this game, I played through all four routes for a total of about 150 hours. It combines the tactics of Fire Emblem with the social sim of Persona, with each half of the game complimenting the other. If you like that aspect of Persona, I think you'll like this game too." },
-  { "name": "Just Dance 2022", "image": "images/justdance2022.png", "category": "Other", "year": 2021, "description": "This was the last game they made before going digital only, and the subscription service is no longer available. That said, it still has a bunch of good songs in it, including: Baianá, Boss Witch, Freed from Desire, Good 4 U, I'm Outta Love, Judas, Mr. Blue Sky, Pop/Stars, Smalltown Boy, and Think About Things." },
-  { "name": "Kirby and the Forgotten Land", "image": "images/kirby-city.png", "category": "Platform", "year": 2022, "description": "This is a super fun fixed perspective 3D platformer, with interesting boss fights too. There reaches a point in the game where you get unlockables that trivialise everything, but before that there were some bosses that genuinely required a level of mastery. Overall, it's an easy enough game to beat, but plenty of reasons to go back if you want to 100% levels." },
-  { "name": "Pokémon Legends: Arceus", "image": "images/legends-arceus.png", "category": "Pokémon", "year": 2022, "description": "Probably my favourite Pokemon game since I was a child. I always loved the collecting more than the battling, so existing in a world where you can catch as many as you want felt great. The world feels alive more than any other Pokemon game, and I really hope they go back to this formula at some point.", "borrowed": true },
-  { "name": "Pokémon Legends: Z-A", "image": "images/legends-za.png", "category": "Pokémon", "year": 2025, "description": "Real time Pokemon battles instead of turn based. The entire game is set in one city. I wish I had positive things to say, but this game was just ok. I wish it was more like Legends Arceus.", "borrowed": true },
-  { "name": "Pokémon Let's Go Eevee", "image": "images/lets-go-eevee.png", "category": "Pokémon", "year": 2018, "description": "This is just modern Pokemon Yellow, with Eevee instead of Pikachu. The battling is very easy, but all of the wild battles are gone and replaced with Pokemon Go style 'throw lots of balls to try and catch them'. It's basic, but it looks nice, and probably appeals to people nostalgic for gen 1." },
-  { "name": "Super Mario 3D All-Stars", "image": "images/mario-all-stars.png", "category": "Platform", "year": 2020, "description": "" },
-  { "name": "Super Mario Bros. Wonder", "image": "images/mario-wonder.png", "category": "Platform", "year": 2023, "description": "" },
-  { "name": "Super Mario Odyssey", "image": "images/odyssey.png", "category": "Platform", "year": 2017, "description": "", "borrowed": true },
-  { "name": "Ori and the Will of the Wisps", "image": "images/ori2.png", "category": "Platform", "year": 2020, "description": "" },
-  { "name": "Persona 5 Strikers", "image": "images/persona5s.png", "category": "Long Anime Games", "year": 2021, "description": "" },
-  { "name": "Pokémon Shining Pearl", "image": "images/pokemon-pearl.png", "category": "Pokémon", "year": 2021, "description": "" },
-  { "name": "Pokémon Shield", "image": "images/pokemon-shield.png", "category": "Pokémon", "year": 2019, "description": "" },
-  { "name": "New Pokémon Snap", "image": "images/pokemon-snap.png", "category": "Pokémon", "year": 2021, "description": "This is a pretty short game, but also requires a lot of grinding to progress through the main story. It's very pretty, and seeing Pokemon doing things other than just battling and using moves is really charming. I enjoyed this game, but even with some free updates I didn't really feel the need to come back and play it much.", "borrowed": false },
-  { "name": "Pokémon Violet", "image": "images/pokemon-violet.png", "category": "Pokémon", "year": 2022, "description": "" },
-  { "name": "Ring Fit Adventure", "image": "images/ringfit.png", "category": "Other", "year": 2019, "description": "" },
-  { "name": "Rune Factory 3 Special", "image": "images/rune-factory-3.png", "category": "Life Sim", "year": 2023, "description": "" },
-  { "name": "Rune Factory 4 Special", "image": "images/rune-factory-4.png", "category": "Life Sim", "year": 2020, "description": "" },
-  { "name": "Rune Factory 5", "image": "images/rune-factory-5.png", "category": "Life Sim", "year": 2021, "description": "" },
-  { "name": "Sakuna: Of Rice and Ruin", "image": "images/sakuna.png", "category": "Life Sim", "year": 2020, "description": "" },
-  { "name": "Sonic X Shadow Generations", "image": "images/shadow-generations.png", "category": "Platform", "year": 2024, "description": "" },
-  { "name": "Silent Hope", "image": "images/silent-hope.png", "category": "Other", "year": 2023, "description": "" },
-  { "name": "Shin Megami Tensei III Nocturne HD Remaster", "image": "images/smt3.png", "category": "Long Anime Games", "year": 2021, "description": "" },
-  { "name": "Shin Megami Tensei V", "image": "images/smt5.png", "category": "Long Anime Games", "year": 2021, "description": "" },
-  { "name": "Sonic Frontiers", "image": "images/sonic-frontiers.png", "category": "Platform", "year": 2022, "description": "" },
-  { "name": "Story of Seasons: Friends of Mineral Town", "image": "images/sos-fomt.png", "category": "Life Sim", "year": 2020, "description": "" },
-  { "name": "Story of Seasons: A Wonderful Life", "image": "images/sosawl.png", "category": "Life Sim", "year": 2023, "description": "" },
-  { "name": "Story of Seasons: Pioneers of Olive Town", "image": "images/sospoot.png", "category": "Life Sim", "year": 2021, "description": "" },
-  { "name": "Tony Hawk's Pro Skater 1+2", "image": "images/tonyhawk-1-2.png", "category": "Other", "year": 2020, "description": "" },
-  { "name": "The Legend of Zelda: Tears of the Kingdom", "image": "images/totk.png", "category": "Other", "year": 2023, "description": "" },
-  { "name": "NEO: The World Ends With You", "image": "images/twewy-neo.png", "category": "Long Anime Games", "year": 2021, "description": "" },
-  { "name": "The World Ends With You: Final Remix", "image": "images/twewy.png", "category": "Long Anime Games", "year": 2018, "description": "" },
-  { "name": "Xenoblade Chronicles: Definitive Edition", "image": "images/xenoblade-de.png", "category": "Long Anime Games", "year": 2020, "description": "" },
-  { "name": "Xenoblade Chronicles X: Definitive Edition", "image": "images/xenoblade-x.png", "category": "Long Anime Games", "year": 2025, "description": "" },
-  { "name": "Xenoblade Chronicles 2: Torna – The Golden Country", "image": "images/xenoblade2-torna.png", "category": "Long Anime Games", "year": 2018, "description": "" },
-  { "name": "Xenoblade Chronicles 2", "image": "images/xenoblade2.png", "category": "Long Anime Games", "year": 2017, "description": "" },
-  { "name": "Xenoblade Chronicles 3", "image": "images/xenoblade3.png", "category": "Long Anime Games", "year": 2022, "description": "" },
-  { "name": "The Legend of Zelda: Echoes of Wisdom", "image": "images/zelda-wisdom.png", "category": "Other", "year": 2024, "description": "It's cool that they brought the very open problem solving approach to a top down Zelda, and even cooler that you get to play the whole game as Zelda. There are some interesting dungeons and bosses, and you have a fair bit of freedom as to what order you take things in. It is on the easier side, and I found it had the Tears of the Kingdom problem of: once you have your favourite solution, you can probably solve most problems using it. But a decent enough game overall.", "borrowed": false },
-  { "name": "Harvest Moon The Windos of Anthos", "image": "images/hmwoa.png", "category": "Life Sim", "year": 2023, "description": "" },
-  { "name": "Kirby Air Riders", "image": "images/kirby-riders.png", "category": "Other", "year": 2025, "description": "Riders at the ready! Pick your rider, pick your machine, and mount up for competition! Take on your rivals in frantic arena battles or fast-paced races on the ground and in the air. Use the Boost Charge button to brake and control your turns as your machine automatically fights for top speed. Fill your Boost Charge gauge as you drift around the bend and release it to trigger an explosive dash! " },
-  { "name": "Rhythm Paradise Groove", "image": "images/rpgroove.png", "category": "Other", "year": 2026, "description": "You can do anything with rhythm! No matter how strange the situation, the rules are always the same: just press buttons in time with the beat! Hop through hoops, catch flying vegetables, swing sledgehammers, and much more – perform surprising feats with the music as your guide!" },
-  { "name": "Rune Factory: Guardians of Azuma", "image": "images/azuma.png", "category": "Life Sim", "year": 2025, "description": "Choose from one of two protagonists whose destinies are intertwined by mysterious forces. Use sacred treasures to fight against the Blight’s many forms to restore the people, and even gods, to their natural glory. Take farming further, as you’ll manage more than a plot, rebuilding entire villages and cultivating new allies and resources along the way. Explore seasonal-themed villages heavily inspired by traditional Japanese culture, each with brand-new festivals and revamped fan-favourites, as well as charming romance candidates." }
+  {
+    "name": "Animal Crossing: New Horizons",
+    "image": "images/acnh.png",
+    "category": "Life Sim",
+    "year": 2020,
+    "description": "Ah yes, everyone's lockdown game of 2020. It's hard to overstate how big of a thing this was during the pandemic, but if you never picked it up, there's still plenty of reasons to play now. They added free DLC twice since launch, and a paid expansion for Happy Home Designer. If you loved it on the DS you'll love it here too. It only requires a small amount of time each day, but I've not see anyone put this game down in under 100 hours."
+  },
+  {
+    "name": "Advance Wars 1+2 Re-Boot Camp",
+    "image": "images/advance-wars-reboot.png",
+    "category": "Other",
+    "year": 2023,
+    "description": "The Advance Wars I've played the most is Dual Strike, but even though these two games are technically simpler by comparison, there is SO much content here. I came to appreciate the simplicity as elegance, and ended up with over 150 hours played. There's no Advance Wars inspired game on the Switch that I think can beat this."
+  },
+  {
+    "name": "Astral Chain",
+    "image": "images/astral-chain.png",
+    "category": "Other",
+    "year": 2019,
+    "description": "This was directed by the game designer for Nier: Automata, under supervision from the creator of Devil May Cry and Bayonetta. If that means something to you then perhaps this game is for you? It has a unque central mechanic of having a chain between you and your other character, and you tie the chain round things in combat. The combat is fast and has a lot of variety, and it's not a super long game either, but personally it didn't stick with me much. Not really my style of gameplay."
+  },
+  {
+    "name": "Bravely Default II",
+    "image": "images/bravely-default-2.png",
+    "category": "Long Anime Games",
+    "year": 2021,
+    "description": "I loved the first Bravely Default, and at times I liked this game too. But by the end I was so sick of it I was just seeing what cheese strategies I could use to roll credits as fast as possible. I think there's still some interesting things going on here, and it mixes up the traditional turn based combat plus jobs system you see in so many of these games, but I'm not sure I recommend it unless you're a huge fan of these kind of games."
+  },
+  {
+    "name": "Cadence of Hyrule",
+    "image": "images/cadence.png",
+    "category": "Other",
+    "year": 2019,
+    "description": "This is Crypt of the Necrodancer, but Zelda. But it also leans way heavier into Zelda than I expected. You basically have a randomly generated Zelda overworld to explore, with shuffled items and dungeon floors - this is something no other Zelda game has done. It's difficult for sure, but the music is great, and the general execution very good too."
+  },
+  {
+    "name": "Crash Team Racing Nitro-Fueled",
+    "image": "images/ctr.png",
+    "category": "Other",
+    "year": 2019,
+    "description": "I have good memories of playing this back on the PS1, although I'll admit the visuals have not aged well. This game looks much better, and it feels more skill based than a Mario Kart, but it runs awfully, and the load times between levels are actually painful. It's hard to recommend as a multiplayer game, but it does have a more robust single player than Mario Kart, so if you can stand the frame rate and load times, you might have some fun."
+  },
+  {
+    "name": "Dragon Quest Builders 2",
+    "image": "images/dqb2.png",
+    "category": "Life Sim",
+    "year": 2019,
+    "description": "I've been recommending this game ever since I first played it, and I still cannot say enough good things about it. But now I have one extra thing to say - it's Pokopia but before Pokopia came out. It's an exceptionally generous game, there's so much to do, so much depth to the mechanics. I liked it so much I bought it at completed it on two different platforms.",
+    "borrowed": true
+  },
+  {
+    "name": "Fire Emblem Engage",
+    "image": "images/fe-engage.png",
+    "category": "Long Anime Games",
+    "year": 2023,
+    "description": "I didn't like this one as much as Three Houses, but people who prefer the tactics gameplay over the life sim stuff have said it's a really good game. I got pretty far but never completed it, I think I was on the last two or three missions."
+  },
+  {
+    "name": "Fire Emblem: Three Houses",
+    "image": "images/fe3h.png",
+    "category": "Long Anime Games",
+    "year": 2019,
+    "description": "I really loved this game, I played through all four routes for a total of about 150 hours. It combines the tactics of Fire Emblem with the social sim of Persona, with each half of the game complimenting the other. If you like that aspect of Persona, I think you'll like this game too."
+  },
+  {
+    "name": "Just Dance 2022",
+    "image": "images/justdance2022.png",
+    "category": "Other",
+    "year": 2021,
+    "description": "This was the last game they made before going digital only, and the subscription service is no longer available. That said, it still has a bunch of good songs in it, including: Baianá, Boss Witch, Freed from Desire, Good 4 U, I'm Outta Love, Judas, Mr. Blue Sky, Pop/Stars, Smalltown Boy, and Think About Things."
+  },
+  {
+    "name": "Kirby and the Forgotten Land",
+    "image": "images/kirby-city.png",
+    "category": "Platform",
+    "year": 2022,
+    "description": "This is a super fun fixed perspective 3D platformer, with interesting boss fights too. There reaches a point in the game where you get unlockables that trivialise everything, but before that there were some bosses that genuinely required a level of mastery. Overall, it's an easy enough game to beat, but plenty of reasons to go back if you want to 100% levels.",
+    "borrowed": true
+  },
+  {
+    "name": "Pokémon Legends: Arceus",
+    "image": "images/legends-arceus.png",
+    "category": "Pokémon",
+    "year": 2022,
+    "description": "Probably my favourite Pokemon game since I was a child. I always loved the collecting more than the battling, so existing in a world where you can catch as many as you want felt great. The world feels alive more than any other Pokemon game, and I really hope they go back to this formula at some point.",
+    "borrowed": true
+  },
+  {
+    "name": "Pokémon Legends: Z-A",
+    "image": "images/legends-za.png",
+    "category": "Pokémon",
+    "year": 2025,
+    "description": "Real time Pokemon battles instead of turn based. The entire game is set in one city. I wish I had positive things to say, but this game was just ok. I wish it was more like Legends Arceus.",
+    "borrowed": true
+  },
+  {
+    "name": "Pokémon Let's Go Eevee",
+    "image": "images/lets-go-eevee.png",
+    "category": "Pokémon",
+    "year": 2018,
+    "description": "This is just modern Pokemon Yellow, with Eevee instead of Pikachu. The battling is very easy, but all of the wild battles are gone and replaced with Pokemon Go style 'throw lots of balls to try and catch them'. It's basic, but it looks nice, and probably appeals to people nostalgic for gen 1.",
+    "borrowed": true
+  },
+  {
+    "name": "Super Mario 3D All-Stars",
+    "image": "images/mario-all-stars.png",
+    "category": "Platform",
+    "year": 2020,
+    "description": ""
+  },
+  {
+    "name": "Super Mario Bros. Wonder",
+    "image": "images/mario-wonder.png",
+    "category": "Platform",
+    "year": 2023,
+    "description": "",
+    "borrowed": true
+  },
+  {
+    "name": "Super Mario Odyssey",
+    "image": "images/odyssey.png",
+    "category": "Platform",
+    "year": 2017,
+    "description": "",
+    "borrowed": true
+  },
+  {
+    "name": "Ori and the Will of the Wisps",
+    "image": "images/ori2.png",
+    "category": "Platform",
+    "year": 2020,
+    "description": ""
+  },
+  {
+    "name": "Persona 5 Strikers",
+    "image": "images/persona5s.png",
+    "category": "Long Anime Games",
+    "year": 2021,
+    "description": ""
+  },
+  {
+    "name": "Pokémon Shining Pearl",
+    "image": "images/pokemon-pearl.png",
+    "category": "Pokémon",
+    "year": 2021,
+    "description": ""
+  },
+  {
+    "name": "Pokémon Shield",
+    "image": "images/pokemon-shield.png",
+    "category": "Pokémon",
+    "year": 2019,
+    "description": "",
+    "borrowed": true
+  },
+  {
+    "name": "New Pokémon Snap",
+    "image": "images/pokemon-snap.png",
+    "category": "Pokémon",
+    "year": 2021,
+    "description": "This is a pretty short game, but also requires a lot of grinding to progress through the main story. It's very pretty, and seeing Pokemon doing things other than just battling and using moves is really charming. I enjoyed this game, but even with some free updates I didn't really feel the need to come back and play it much.",
+    "borrowed": false
+  },
+  {
+    "name": "Pokémon Violet",
+    "image": "images/pokemon-violet.png",
+    "category": "Pokémon",
+    "year": 2022,
+    "description": ""
+  },
+  {
+    "name": "Ring Fit Adventure",
+    "image": "images/ringfit.png",
+    "category": "Other",
+    "year": 2019,
+    "description": ""
+  },
+  {
+    "name": "Rune Factory 3 Special",
+    "image": "images/rune-factory-3.png",
+    "category": "Life Sim",
+    "year": 2023,
+    "description": ""
+  },
+  {
+    "name": "Rune Factory 4 Special",
+    "image": "images/rune-factory-4.png",
+    "category": "Life Sim",
+    "year": 2020,
+    "description": ""
+  },
+  {
+    "name": "Rune Factory 5",
+    "image": "images/rune-factory-5.png",
+    "category": "Life Sim",
+    "year": 2021,
+    "description": ""
+  },
+  {
+    "name": "Sakuna: Of Rice and Ruin",
+    "image": "images/sakuna.png",
+    "category": "Life Sim",
+    "year": 2020,
+    "description": ""
+  },
+  {
+    "name": "Sonic X Shadow Generations",
+    "image": "images/shadow-generations.png",
+    "category": "Platform",
+    "year": 2024,
+    "description": ""
+  },
+  {
+    "name": "Silent Hope",
+    "image": "images/silent-hope.png",
+    "category": "Other",
+    "year": 2023,
+    "description": ""
+  },
+  {
+    "name": "Shin Megami Tensei III Nocturne HD Remaster",
+    "image": "images/smt3.png",
+    "category": "Long Anime Games",
+    "year": 2021,
+    "description": ""
+  },
+  {
+    "name": "Shin Megami Tensei V",
+    "image": "images/smt5.png",
+    "category": "Long Anime Games",
+    "year": 2021,
+    "description": ""
+  },
+  {
+    "name": "Sonic Frontiers",
+    "image": "images/sonic-frontiers.png",
+    "category": "Platform",
+    "year": 2022,
+    "description": ""
+  },
+  {
+    "name": "Story of Seasons: Friends of Mineral Town",
+    "image": "images/sos-fomt.png",
+    "category": "Life Sim",
+    "year": 2020,
+    "description": ""
+  },
+  {
+    "name": "Story of Seasons: A Wonderful Life",
+    "image": "images/sosawl.png",
+    "category": "Life Sim",
+    "year": 2023,
+    "description": ""
+  },
+  {
+    "name": "Story of Seasons: Pioneers of Olive Town",
+    "image": "images/sospoot.png",
+    "category": "Life Sim",
+    "year": 2021,
+    "description": ""
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 1+2",
+    "image": "images/tonyhawk-1-2.png",
+    "category": "Other",
+    "year": 2020,
+    "description": ""
+  },
+  {
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "image": "images/totk.png",
+    "category": "Other",
+    "year": 2023,
+    "description": "",
+    "borrowed": true
+  },
+  {
+    "name": "NEO: The World Ends With You",
+    "image": "images/twewy-neo.png",
+    "category": "Long Anime Games",
+    "year": 2021,
+    "description": ""
+  },
+  {
+    "name": "The World Ends With You: Final Remix",
+    "image": "images/twewy.png",
+    "category": "Long Anime Games",
+    "year": 2018,
+    "description": ""
+  },
+  {
+    "name": "Xenoblade Chronicles: Definitive Edition",
+    "image": "images/xenoblade-de.png",
+    "category": "Long Anime Games",
+    "year": 2020,
+    "description": ""
+  },
+  {
+    "name": "Xenoblade Chronicles X: Definitive Edition",
+    "image": "images/xenoblade-x.png",
+    "category": "Long Anime Games",
+    "year": 2025,
+    "description": ""
+  },
+  {
+    "name": "Xenoblade Chronicles 2: Torna – The Golden Country",
+    "image": "images/xenoblade2-torna.png",
+    "category": "Long Anime Games",
+    "year": 2018,
+    "description": ""
+  },
+  {
+    "name": "Xenoblade Chronicles 2",
+    "image": "images/xenoblade2.png",
+    "category": "Long Anime Games",
+    "year": 2017,
+    "description": ""
+  },
+  {
+    "name": "Xenoblade Chronicles 3",
+    "image": "images/xenoblade3.png",
+    "category": "Long Anime Games",
+    "year": 2022,
+    "description": ""
+  },
+  {
+    "name": "The Legend of Zelda: Echoes of Wisdom",
+    "image": "images/zelda-wisdom.png",
+    "category": "Other",
+    "year": 2024,
+    "description": "It's cool that they brought the very open problem solving approach to a top down Zelda, and even cooler that you get to play the whole game as Zelda. There are some interesting dungeons and bosses, and you have a fair bit of freedom as to what order you take things in. It is on the easier side, and I found it had the Tears of the Kingdom problem of: once you have your favourite solution, you can probably solve most problems using it. But a decent enough game overall.",
+    "borrowed": false
+  },
+  {
+    "name": "Harvest Moon The Windos of Anthos",
+    "image": "images/hmwoa.png",
+    "category": "Life Sim",
+    "year": 2023,
+    "description": ""
+  },
+  {
+    "name": "Kirby Air Riders",
+    "image": "images/kirby-riders.png",
+    "category": "Other",
+    "year": 2025,
+    "description": "Riders at the ready! Pick your rider, pick your machine, and mount up for competition! Take on your rivals in frantic arena battles or fast-paced races on the ground and in the air. Use the Boost Charge button to brake and control your turns as your machine automatically fights for top speed. Fill your Boost Charge gauge as you drift around the bend and release it to trigger an explosive dash! "
+  },
+  {
+    "name": "Rhythm Paradise Groove",
+    "image": "images/rpgroove.png",
+    "category": "Other",
+    "year": 2026,
+    "description": "You can do anything with rhythm! No matter how strange the situation, the rules are always the same: just press buttons in time with the beat! Hop through hoops, catch flying vegetables, swing sledgehammers, and much more – perform surprising feats with the music as your guide!",
+    "borrowed": true
+  },
+  {
+    "name": "Rune Factory: Guardians of Azuma",
+    "image": "images/azuma.png",
+    "category": "Life Sim",
+    "year": 2025,
+    "description": "Choose from one of two protagonists whose destinies are intertwined by mysterious forces. Use sacred treasures to fight against the Blight’s many forms to restore the people, and even gods, to their natural glory. Take farming further, as you’ll manage more than a plot, rebuilding entire villages and cultivating new allies and resources along the way. Explore seasonal-themed villages heavily inspired by traditional Japanese culture, each with brand-new festivals and revamped fan-favourites, as well as charming romance candidates."
+  }
 ]
