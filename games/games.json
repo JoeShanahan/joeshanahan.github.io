@@ -47,7 +47,7 @@
     "category": "Life Sim",
     "year": 2019,
     "description": "I've been recommending this game ever since I first played it, and I still cannot say enough good things about it. But now I have one extra thing to say - it's Pokopia but before Pokopia came out. It's an exceptionally generous game, there's so much to do, so much depth to the mechanics. I liked it so much I bought it at completed it on two different platforms.",
-    "borrowed": true
+    "borrowed": false
   },
   {
     "name": "Fire Emblem Engage",
@@ -100,7 +100,7 @@
     "category": "Pokémon",
     "year": 2018,
     "description": "This is just modern Pokemon Yellow, with Eevee instead of Pikachu. The battling is very easy, but all of the wild battles are gone and replaced with Pokemon Go style 'throw lots of balls to try and catch them'. It's basic, but it looks nice, and probably appeals to people nostalgic for gen 1.",
-    "borrowed": true
+    "borrowed": false
   },
   {
     "name": "Super Mario 3D All-Stars",
@@ -115,7 +115,7 @@
     "category": "Platform",
     "year": 2023,
     "description": "",
-    "borrowed": true
+    "borrowed": false
   },
   {
     "name": "Super Mario Odyssey",
@@ -152,7 +152,7 @@
     "category": "Pokémon",
     "year": 2019,
     "description": "",
-    "borrowed": true
+    "borrowed": false
   },
   {
     "name": "New Pokémon Snap",
@@ -344,14 +344,14 @@
     "image": "images/kirby-riders.png",
     "category": "Other",
     "year": 2025,
-    "description": "Riders at the ready! Pick your rider, pick your machine, and mount up for competition! Take on your rivals in frantic arena battles or fast-paced races on the ground and in the air. Use the Boost Charge button to brake and control your turns as your machine automatically fights for top speed. Fill your Boost Charge gauge as you drift around the bend and release it to trigger an explosive dash! "
+    "description": "This game is extremely hyperactive, and yet very simple at the same time. I'm not sure if I actually like it that much, it feels a bit shallow. It's got a ton of style to the UI (like any game from the designer of Super Smash Bros) but I found myself bouncing off pretty quickly. Rent don't buy, if renting is even a thing any more...?"
   },
   {
     "name": "Rhythm Paradise Groove",
     "image": "images/rpgroove.png",
     "category": "Other",
     "year": 2026,
-    "description": "You can do anything with rhythm! No matter how strange the situation, the rules are always the same: just press buttons in time with the beat! Hop through hoops, catch flying vegetables, swing sledgehammers, and much more – perform surprising feats with the music as your guide!",
+    "description": "This game is so unbelievably silly, but at the same time really well made. It's unlike any other rhythm game series I've played, where truly you can play it with your eyes closed. Fun in single player, even more fun with four players, this gets a huge recommendation from me.",
     "borrowed": true
   },
   {
@@ -359,6 +359,6 @@
     "image": "images/azuma.png",
     "category": "Life Sim",
     "year": 2025,
-    "description": "Choose from one of two protagonists whose destinies are intertwined by mysterious forces. Use sacred treasures to fight against the Blight’s many forms to restore the people, and even gods, to their natural glory. Take farming further, as you’ll manage more than a plot, rebuilding entire villages and cultivating new allies and resources along the way. Explore seasonal-themed villages heavily inspired by traditional Japanese culture, each with brand-new festivals and revamped fan-favourites, as well as charming romance candidates."
+    "description": "This series has been great since it started on the DS, and while Stardew Valley probably has it beat these days, there's still things it does uniquely that I really like. It somewhat struggled to move into 3D, with Rune Factory 5 having loading and performance issues, but this game runs great, especially on the Switch 2. It does feel like there's less of a focus on the farming, and more on the combat, but still plenty of depth. I haven't completed it yet, but I've had fun with my time so far."
   }
 ]
